@@ -1,6 +1,5 @@
-// modified from https://gist.github.com/ttezel/3124434
 var unsorted = [];
-for (var index = 0, t = 400000; index < t; index++) {
+for (var index = 0, t = 400; index < t; index++) {
   unsorted.push(Math.round(Math.random() * t));
 }
 
@@ -10,7 +9,7 @@ function quickSort(array) {
   }
 
   // get random pivot element (and remove from array to add back in later)
-  var pivot = array.splice(Math.floor(Math.random() * array.length), 1);
+  var pivot = array.splice(Math.floor((0 + array.length) / 2), 1);
 
   // create left array (elements <= pivot), and right array (elements > pivot)
   var left = [];
