@@ -8,7 +8,7 @@
 
 // Case 1 - Small Set of Numbers
 var arraySize = 40;
-
+//add a commentt
 // // Case 2 - Large set of Numbers
 // var arraySize = 400000;
 
@@ -56,8 +56,8 @@ function selectionSort(items) {
 // ================================================
 // FUNCTION CALL
 // ================================================
-console.log("PRE-SORT");
-console.log(array.join(" "));
-console.log("---------------------------");
-console.log("POST-SORT");
-console.log(selectionSort(array).join(" "));
+console.log('PRE-SORT');
+console.log(array.join(' '));
+console.log('---------------------------');
+console.log('POST-SORT');
+console.log(selectionSort(array).join(' '));
